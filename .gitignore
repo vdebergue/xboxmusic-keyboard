@@ -2,3 +2,4 @@ node_modules/
 *.min.*
 main.js
 *.map
+app.pem

@@ -1,4 +1,4 @@
-xboxmusic-keyboard
+XboxMusic Keyboard
 ==================
 
 A chrome plugin in development to control music.xbox.com with keyboard. Why ? Because keyboard is cool :D
@@ -15,4 +15,14 @@ Available shortcuts
 - `alt+n` Go to Now Playing
 - `/` Focus on search input
 
+How to install
+--------------
+Download the file `xboxmusic-keyboard.crx`
+
+In Chrome, go to `chrome://extensions`
+
+Drag and drop the extension file `xboxmusic-keyboard.crx` into the page
+
+Other
+-----
 I use [jQuery Hotkeys](https://github.com/jeresig/jquery.hotkeys) to manage key bindings
