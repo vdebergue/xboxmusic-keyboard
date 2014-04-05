@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+
+  "name": "Xbox Music Keyboard Shortcuts",
+  "description": "Awesome description",
+  "version": "0.1.0",
+  "permissions": [],
+  
+  "content_scripts": [
+    {
+      "matches": [
+        "http://music.xbox.com/*",
+        "https://music.xbox.com/*"
+      ],
+      "css": [],
+      "js": [
+        "scripts/inject.js"
+      ],
+      "run_at": "document_end",
+      "all_frames": false
+    }    
+  ],
+  "web_accessible_resources": [
+    "scripts/main.min.js",
+    "scripts/main.min.map",
+    "scripts/jquery.hotkeys.js",
+    "scripts/main.js",
+    "script/main.coffee"
+  ]
+}
